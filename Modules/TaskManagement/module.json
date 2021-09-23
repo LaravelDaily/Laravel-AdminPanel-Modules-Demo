@@ -1,0 +1,13 @@
+{
+    "name": "TaskManagement",
+    "alias": "taskmanagement",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\TaskManagement\\Providers\\TaskManagementServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

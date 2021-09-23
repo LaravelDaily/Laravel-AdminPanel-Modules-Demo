@@ -1,4 +1,5 @@
 {
     "ContactManagement": true,
-    "ExpenseManagement": true
+    "ExpenseManagement": true,
+    "TaskManagement": true
 }
