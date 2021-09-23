@@ -25,14 +25,6 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'mi
     Route::delete('users/destroy', 'UsersController@massDestroy')->name('users.massDestroy');
     Route::resource('users', 'UsersController');
 
-    // Contact Company
-    Route::delete('contact-companies/destroy', 'ContactCompanyController@massDestroy')->name('contact-companies.massDestroy');
-    Route::resource('contact-companies', 'ContactCompanyController');
-
-    // Contact Contacts
-    Route::delete('contact-contacts/destroy', 'ContactContactsController@massDestroy')->name('contact-contacts.massDestroy');
-    Route::resource('contact-contacts', 'ContactContactsController');
-
     // Expense Category
     Route::delete('expense-categories/destroy', 'ExpenseCategoryController@massDestroy')->name('expense-categories.massDestroy');
     Route::resource('expense-categories', 'ExpenseCategoryController');

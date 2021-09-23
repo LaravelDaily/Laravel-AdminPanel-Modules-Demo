@@ -17,9 +17,10 @@
         "laravel/dusk": "^6.11",
         "laravel/framework": "^8.12",
         "laravel/tinker": "^2.5",
-        "yajra/laravel-datatables-oracle": "^9.18",
         "laravel/ui": "^3.3",
-        "spatie/laravel-medialibrary": "^8.7"
+        "nwidart/laravel-modules": "^8.2",
+        "spatie/laravel-medialibrary": "^8.7",
+        "yajra/laravel-datatables-oracle": "^9.18"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
@@ -42,6 +43,7 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
+            "Modules\\": "Modules/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
         }
