@@ -25,26 +25,6 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'mi
     Route::delete('users/destroy', 'UsersController@massDestroy')->name('users.massDestroy');
     Route::resource('users', 'UsersController');
 
-    // Expense Category
-    Route::delete('expense-categories/destroy', 'ExpenseCategoryController@massDestroy')->name('expense-categories.massDestroy');
-    Route::resource('expense-categories', 'ExpenseCategoryController');
-
-    // Income Category
-    Route::delete('income-categories/destroy', 'IncomeCategoryController@massDestroy')->name('income-categories.massDestroy');
-    Route::resource('income-categories', 'IncomeCategoryController');
-
-    // Expense
-    Route::delete('expenses/destroy', 'ExpenseController@massDestroy')->name('expenses.massDestroy');
-    Route::resource('expenses', 'ExpenseController');
-
-    // Income
-    Route::delete('incomes/destroy', 'IncomeController@massDestroy')->name('incomes.massDestroy');
-    Route::resource('incomes', 'IncomeController');
-
-    // Expense Report
-    Route::delete('expense-reports/destroy', 'ExpenseReportController@massDestroy')->name('expense-reports.massDestroy');
-    Route::resource('expense-reports', 'ExpenseReportController');
-
     // Task Status
     Route::delete('task-statuses/destroy', 'TaskStatusController@massDestroy')->name('task-statuses.massDestroy');
     Route::resource('task-statuses', 'TaskStatusController');

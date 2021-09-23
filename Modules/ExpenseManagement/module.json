@@ -1,0 +1,13 @@
+{
+    "name": "ExpenseManagement",
+    "alias": "expensemanagement",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\ExpenseManagement\\Providers\\ExpenseManagementServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
